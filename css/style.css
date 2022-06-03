@@ -1,0 +1,247 @@
+
+body {       
+margin: 10;
+ padding:0;
+font-size: 14px;
+line-height: 20px;
+font-family: Verdana, sans-serif;
+color: #000000;
+background-color: #ffffff;    
+}
+.container{
+ width: 1040px;
+ margin: 0 auto;
+padding: 0;}
+.site-header {
+color: #ffffff;
+background-color: #222222;
+}
+.main_nav {
+display: flex;
+margin-bottom: 45px; 
+    flex-wrap: wrap;
+}
+.site-menu{
+display: flex;
+flex-wrap: wrap;
+width:300px;
+margin-left: 40px ;
+margin-right: 430;
+list-style: none;
+margin: 0;
+margin-top:25px;
+padding: 0;    
+margin-left: 54px;        
+}
+li
+{margin-left:20px;}
+
+.contacts-menu 
+{
+    max-width: 180px;
+    margin: 0;
+    margin-left: auto;
+    margin-right: 80px;
+    padding: 0;
+    list-style: 0;
+}
+section {
+    display: flex;
+    direction: row;
+    flex-wrap: wrap;
+}
+.about-us {
+    width: 920px;
+    padding-left: 120px;
+    
+}
+.about-us h1 {
+    font-size: 45px;
+    line-height: 50px;
+    font-family: "Courier New",
+        monospace;
+    color: white;
+    
+        
+}
+
+.about-us p {
+    font-size: 14px;
+    line-height: 22px;
+    color: #d4d4d4;
+    }
+.site-main{color:#ffffff;
+background-color: #222222;}
+.btn-yellow
+{background-color: #feca30;}
+
+.block1
+{display: flex;
+flex-wrap: wrap;
+width: 420px;}
+
+.btn {
+    position: relayive;
+    display: inline-block;
+width:200px;
+height 60px;
+padding: 0 20px;
+font-weight: bold;
+font-size: 20px;
+line-height: 30px;
+text-decoration: none;
+text-transform: uppercase;
+vertical-align:  top;
+color:#222222;
+cursor:pointer;
+border: none;
+border-radius: 50px;}
+
+.moon-vacation .container{
+    display: flex;
+}
+.moon-vacation{
+    padding-top:80px;
+    padding-bottom: 45xp;
+    margin-right: 10px;
+    background-color: #FFFFFF;
+    color:black;
+}
+.moon-vacation .lead{ 
+margin-top: 60px;
+margin bottom: 50 px;
+font-weight: bold;
+line-height: 30 px;}
+
+.columns-container .left-columns{
+width: 400px;
+margin-right: 100px;}
+padding-right:10px;
+
+.columns-container .right-columns{
+width:400px;
+margin-left: 10px;
+    padding-left;10px;
+    padding-left:10px;
+}
+.container{
+    width: 1040px
+        margin: 0 auto
+        padding: 0;
+}
+.colums-container{display: flex;}
+.recommendation{
+padding-top: 20px
+ padding-buttom:55px;
+margin-left: 60px;}
+
+
+.features {
+  padding: 65px 0;
+
+  background-color: #131313;
+
+  color: #ffffff;
+}
+.features-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.features-list li {
+  position: relative;
+  width: 180px;
+  margin-right: 60px;
+  padding-top: 100px;
+  font-size: 14px;
+  line-height: 20px;
+  color: white;
+}
+
+.features-list li::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 60px;
+  height: 68px;
+}
+
+.feature-made-in-russia::after {
+  background-image: url(../img/k1.png);
+}
+
+.feature-food::after {
+  background-image: url(../img/k2.png);
+}
+.feature-pilots::after {
+  background-image: url(../img/k3.png);
+}
+.feature-moon-rover::after {
+  background-image: url(../img/k4.png);
+}
+.moon-vacation .container {
+display: flex;}
+.moon-vacation {
+  padding-top: 80px;
+  padding-bottom: 45px;
+  margin-right:10px;
+  background-color: #FFFFFF;
+color:black;}
+.moon-vacation .lead {
+  margin-top: 60px;
+  margin-bottom: 50px;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px; }
+
+.container {
+    width: 1040px;
+    margin: 0 auto;
+    padding: 0;
+}
+.columns-container {
+  display: flex; 
+}
+
+.columns-container {
+  display: flex; 
+}
+
+.columns-container .left-column {
+  width: 400px;
+  margin-right: 100px;
+  padding-right: 10px;
+}
+
+.columns-container .right-column {
+  width: 400px;
+  margin-left: 10px;
+  padding-left: 10px;
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+.recommendations {
+    padding-top: 20px;
+    padding-bottom: 55px;
+    margin-left: 60px;
+}
+.recommendations-list {
+    margin: 0;
+    padding: 0;
+    padding-left: 0px;
+    padding-left: 30px;
+    list-style: none;
+}
